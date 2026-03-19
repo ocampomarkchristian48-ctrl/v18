@@ -1,0 +1,131 @@
+body{
+font-family:Arial;
+margin:0;
+text-align:center;
+background:#87CEEB;
+}
+
+/* TITLE */
+.title{
+font-size:80px;
+color:#1565c0;
+margin-top:40px;
+}
+
+/* CARD */
+.card{
+background:#2f3e46;
+padding:40px;
+border-radius:20px;
+width:350px;
+margin:auto;
+color:white;
+margin-top:100px;
+}
+
+/* INPUT */
+input{
+padding:12px;
+width:90%;
+border-radius:10px;
+border:none;
+}
+
+/* BUTTON */
+button{
+padding:12px 25px;
+margin-top:15px;
+border:none;
+border-radius:10px;
+background:#2196f3;
+color:white;
+cursor:pointer;
+}
+
+/* HIDDEN */
+.hidden{
+display:none !important;
+}
+
+/* TOPIC PAGE */
+.topicPage{
+margin-top:100px;
+}
+
+/* GRID */
+.topicGrid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+width:500px;
+margin:auto;
+margin-top:30px;
+}
+
+/* BIG BOX */
+.topicBtn{
+padding:40px;
+font-size:22px;
+font-weight:bold;
+border-radius:20px;
+background:white;
+color:#0d3b66;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* QUIZ */
+.gameUI{
+margin-top:100px;
+}
+
+/* QUESTION BOX */
+.questionBox{
+background:white;
+width:600px;
+margin:auto;
+padding:30px;
+border-radius:20px;
+}
+
+/* CHOICES */
+.choicesBox{
+width:600px;
+margin:auto;
+margin-top:20px;
+}
+
+/* ANSWERS */
+.answers{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+/* ANSWER BUTTON */
+.answerBtn{
+padding:20px;
+background:white;
+border-radius:12px;
+cursor:pointer;
+}
+
+/* COLORS */
+.correct{
+background:#4caf50;
+color:white;
+}
+
+.wrong{
+background:#f44336;
+color:white;
+}
+
+/* RESULT */
+.resultBox{
+background:white;
+width:400px;
+margin:auto;
+margin-top:100px;
+padding:40px;
+border-radius:20px;
+}
